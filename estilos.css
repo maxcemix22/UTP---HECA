@@ -15,7 +15,11 @@
     grid-area: header;
     background-color:#f18b2b;
     color:white;
-    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .main{
