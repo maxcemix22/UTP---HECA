@@ -2,9 +2,9 @@
 .blog{
     display: grid;
     grid-template-areas:
-    "header header"
-    "main sidebar"
-    "footer footer";
+    "sidebar header"
+    "sidebar main"
+    "sidebar footer";
     grid-template-columns: 1fr 250px;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
