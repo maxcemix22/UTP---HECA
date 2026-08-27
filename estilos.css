@@ -13,7 +13,7 @@
 
 .header{
     grid-area: header;
-    background-color: #023763;
+    background-color:#f18b2b;
     color:white;
     padding: 1rem;
 }
@@ -25,7 +25,7 @@
 
 .sidebar{
     grid-area: sidebar;
-    background-color: #0873ca;
+    background-color: #f18b2b;
     padding: 1rem;
 }
 
@@ -38,10 +38,33 @@
 }
 
 
-/* Paso 2: Navegación (Flexbox) */
+/* Paso 2: Navegación (Flexbox))*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.nav {
+  display: flex;
+  gap: 15px;
+}
 
+.nav a {
+  color: white;
+  text-decoration: none;
+}
 
-/* Paso 3: Tarjetas de artículos (Flexbox) */
+/* Paso 3: Tarjetas con artículos (Flexbox) */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 
-
+.card {
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
